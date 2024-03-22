@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-22T03:42:51.335Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="6pw7i2teXJPwwebSfz4c" version="23.1.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-03-22T05:35:21.027Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="KWE217nc9LC2wRVhf9-B" version="23.1.5" type="github" pages="3">
   <diagram id="yPxyJZ8AM_hMuL3Unpa9" name="complex gitflow">
     <mxGraphModel dx="1386" dy="785" grid="1" gridSize="1000" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#FFFFFF" math="0" shadow="1">
       <root>
@@ -445,10 +445,10 @@
         <mxCell id="tAz-bNix6g-oyxgy7nuP-11" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="360" width="620" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tAz-bNix6g-oyxgy7nuP-8" value="Train Data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tAz-bNix6g-oyxgy7nuP-8" value="&lt;strike&gt;Train Data&lt;/strike&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="185" y="370" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tAz-bNix6g-oyxgy7nuP-9" value="Test Data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tAz-bNix6g-oyxgy7nuP-9" value="&lt;strike&gt;Test Data&lt;/strike&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="370" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tAz-bNix6g-oyxgy7nuP-13" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -469,8 +469,8 @@
         <mxCell id="tAz-bNix6g-oyxgy7nuP-18" value="Data Pre-Processing" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="-25" y="78" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tAz-bNix6g-oyxgy7nuP-19" value="Split Data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1D3557;" vertex="1" parent="1">
-          <mxGeometry x="75" y="330" width="80" height="30" as="geometry" />
+        <mxCell id="tAz-bNix6g-oyxgy7nuP-19" value="Split Data (RL Does not need it)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="20" y="330" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tAz-bNix6g-oyxgy7nuP-20" value="Environment&lt;br&gt;Stock Market" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="840" width="120" height="60" as="geometry" />
@@ -484,7 +484,7 @@
         <mxCell id="tAz-bNix6g-oyxgy7nuP-26" value="Twitter Data" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" vertex="1" parent="1">
           <mxGeometry x="720" y="10" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tAz-bNix6g-oyxgy7nuP-27" value="Sentiment Information Classifier" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" vertex="1" parent="1">
+        <mxCell id="tAz-bNix6g-oyxgy7nuP-27" value="Sentiment Information Classifier&lt;br&gt;(VADER&amp;lt; SentiWordNEt" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" vertex="1" parent="1">
           <mxGeometry x="590" y="18" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tAz-bNix6g-oyxgy7nuP-28" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;entryX=0.632;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tAz-bNix6g-oyxgy7nuP-27" target="tAz-bNix6g-oyxgy7nuP-10">
@@ -499,9 +499,9 @@
             <mxPoint x="450" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tAz-bNix6g-oyxgy7nuP-30" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tAz-bNix6g-oyxgy7nuP-20" target="tAz-bNix6g-oyxgy7nuP-13">
+        <mxCell id="tAz-bNix6g-oyxgy7nuP-30" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tAz-bNix6g-oyxgy7nuP-39" target="tAz-bNix6g-oyxgy7nuP-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="730" as="sourcePoint" />
+            <mxPoint x="160" y="870" as="sourcePoint" />
             <mxPoint x="450" y="680" as="targetPoint" />
             <Array as="points">
               <mxPoint y="870" />
@@ -509,21 +509,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tAz-bNix6g-oyxgy7nuP-31" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.435;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tAz-bNix6g-oyxgy7nuP-20" target="tAz-bNix6g-oyxgy7nuP-13">
+        <mxCell id="tAz-bNix6g-oyxgy7nuP-31" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;entryX=0.435;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tAz-bNix6g-oyxgy7nuP-33" target="tAz-bNix6g-oyxgy7nuP-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="880" as="sourcePoint" />
             <mxPoint x="200" y="600" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="400" y="780" />
-              <mxPoint x="400" y="740" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tAz-bNix6g-oyxgy7nuP-32" value="Observed State (Stock Price)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1D3557;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="558" width="180" height="30" as="geometry" />
+        <mxCell id="tAz-bNix6g-oyxgy7nuP-32" value="Observed State S(t) (Stock Price)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="558" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tAz-bNix6g-oyxgy7nuP-33" value="Reward&amp;nbsp; (Profit/Loss)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1D3557;" vertex="1" parent="1">
-          <mxGeometry x="350" y="760" width="140" height="30" as="geometry" />
+        <mxCell id="tAz-bNix6g-oyxgy7nuP-33" value="Reward (t) (Profit/Loss)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="340" y="740" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tAz-bNix6g-oyxgy7nuP-34" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;exitX=0.478;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.441;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tAz-bNix6g-oyxgy7nuP-10" target="tAz-bNix6g-oyxgy7nuP-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -541,11 +538,69 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tAz-bNix6g-oyxgy7nuP-36" value="Action (Buy/Sell/Hold)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1D3557;" vertex="1" parent="1">
-          <mxGeometry x="700" y="740" width="140" height="30" as="geometry" />
+        <mxCell id="tAz-bNix6g-oyxgy7nuP-36" value="Action (t) (Buy/Sell/Hold)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="695" y="740" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tAz-bNix6g-oyxgy7nuP-37" value="State S" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="570" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tAz-bNix6g-oyxgy7nuP-38" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="900" as="sourcePoint" />
+            <mxPoint x="160" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAz-bNix6g-oyxgy7nuP-39" value="State S(t+1) (Stock Price)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="160" y="855" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tAz-bNix6g-oyxgy7nuP-40" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.994;entryY=0.833;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tAz-bNix6g-oyxgy7nuP-20" target="tAz-bNix6g-oyxgy7nuP-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="680" as="sourcePoint" />
+            <mxPoint x="160" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAz-bNix6g-oyxgy7nuP-42" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.435;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tAz-bNix6g-oyxgy7nuP-20" target="tAz-bNix6g-oyxgy7nuP-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="840" as="sourcePoint" />
+            <mxPoint x="403" y="703" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAz-bNix6g-oyxgy7nuP-41" value="Reward (t+1) (Profit/Loss)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="330" y="790" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tAz-bNix6g-oyxgy7nuP-43" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="680" as="sourcePoint" />
+            <mxPoint x="450" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAz-bNix6g-oyxgy7nuP-44" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;entryX=0.493;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tAz-bNix6g-oyxgy7nuP-41" target="tAz-bNix6g-oyxgy7nuP-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="810" as="sourcePoint" />
+            <mxPoint x="210" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAz-bNix6g-oyxgy7nuP-45" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="560" width="80" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="tAz-bNix6g-oyxgy7nuP-46" value="Q Learning" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="735" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tAz-bNix6g-oyxgy7nuP-47" value="Deep-Q Learning" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="580" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tAz-bNix6g-oyxgy7nuP-48" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="560" width="80" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="tAz-bNix6g-oyxgy7nuP-49" value="A2C" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="580" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tAz-bNix6g-oyxgy7nuP-50" value="DDGP" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="650" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tAz-bNix6g-oyxgy7nuP-51" value="SAC" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="720" width="60" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
